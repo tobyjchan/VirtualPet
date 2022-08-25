@@ -8,11 +8,29 @@ void draw(){
   fill(255,192,203);
     arc(250,40,220,150,0,PI/1);
 
-  //body
+  //body 
   fill(206,202,202);
-  arc(250, 400, 200, 550, PI, TWO_PI);
-  arc(180, 400, 55, 95, PI, TWO_PI);
+    arc(250, 400, 200, 550, PI, TWO_PI);
+      arc(180, 400, 55, 95, PI, TWO_PI);
+        arc(320, 400, 55, 95, PI, TWO_PI);
+          
   
+  //left paw
+  fill(255,192,203);
+    ellipse(180,385,15,25);
+      ellipse(165,380,7,10);
+        ellipse(195,380,7,10);
+          ellipse(172,368,7,10);
+            ellipse(188,368,7,10);
+
+  //right paw
+  fill(255,192,203);
+   ellipse(320,385,15,25);
+     ellipse(305,380,7,10);
+       ellipse(335,380,7,10);
+         ellipse(312,368,7,10);
+           ellipse(328,368,7,10);                 
+ 
   //face
   stroke(0);
     fill(206,202,202);
@@ -52,3 +70,5 @@ void draw(){
   
   
 }
+
+
