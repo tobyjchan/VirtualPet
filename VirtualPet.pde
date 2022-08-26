@@ -1,6 +1,6 @@
 void setup(){
   background(255,255,255);
-    size(500,600);
+    size(500,500);
 }
 void draw(){
   
@@ -12,9 +12,10 @@ void draw(){
   fill(206,202,202);
     arc(250, 400, 200, 550, PI, TWO_PI);
       arc(180, 400, 55, 95, PI, TWO_PI);
-        arc(320, 400, 55, 95, PI, TWO_PI);
+        arc(320, 400, 55, 95, PI, TWO_PI); 
+          arc(210,200,55,125,0,PI);
+            arc(290,200,55,125,0,PI);
           
-  
   //left paw
   fill(255,192,203);
     ellipse(180,385,15,25);
